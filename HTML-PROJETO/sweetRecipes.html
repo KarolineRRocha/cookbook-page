@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Doces</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="loginModal.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Images/BANNER.png" alt="They Develop and Cook Logo">
+            </div>
+
+            <div class="hamburger">
+                <div class="bars1"></div>
+                <div class="bars2"></div>
+                <div class="bars3"></div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html"> Página Inicial</a></li>
+                <li><a href="saltRecipes.html" style="text-emphasis-color: cadetblue;"> Receitas Salgadas</a></li>
+                <li><a href="sweetRecipes.html"> Receitas Doces</a></li>
+                <li><a href="aboutUs.html"> Quem Somos</a></li>
+                <li><a href="contactUs.html"> Contacte-nos</a></li>
+                <li><button onclick="document.getElementById('loginsection').style.display='block'"
+                        class="login-button">Entrar</button></li>
+            </ul>
+
+            <div id="loginsection" class="modal">
+                <form class="modal-content animate">
+                    <div class="container">
+                        <label for="user"><b>Utilizador</b></label>
+                        <input type="text" placeholder="Digite o utilizador" name="uname" required>
+                        <label for="pwd"><b>Palavra Passe</b></label>
+                        <input type="password" placeholder="Digite a senha" name="pwd" required>
+                        <label>
+                            <input type="checkbox" name="remember"> Manter a sessão iniciada até terminar a sessão
+                        </label>
+                        <button type="submit">Continuar</button>
+                    </div>
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('loginsection').style.display='none'"
+                            class="cancelbtn">Cancelar</button>
+                        <span class="psw"><a href="#">Forgot password?</a></span>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container text-center">
+            <div class="row row-cols-3 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Brigadeirao.jpg" class="card-img-top" alt="Brigadeirao">
+                            <div class="card-body">
+                                <h5 class="card-title">Brigadeirão</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Canjica.jfif" class="card-img-top" alt="Canjica">
+                            <div class="card-body">
+                                <h5 class="card-title">Canjica</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Cheesecake.webp" class="card-img-top" alt="Cheesecake">
+                            <div class="card-body">
+                                <h5 class="card-title">Cheesecake</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Churros.png" class="card-img-top" alt="Churros">
+                            <div class="card-body">
+                                <h5 class="card-title">Churros</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Pudim.jfif" class="card-img-top" alt="Pudim">
+                            <div class="card-body">
+                                <h5 class="card-title">Pudim</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Rabanada.jpg" class="card-img-top" alt="Rabanada">
+                            <div class="card-body">
+                                <h5 class="card-title">Rabanada</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/BrigadeiroChocolate.jfif" class="card-img-top" alt="Brigadeiro">
+                            <div class="card-body">
+                                <h5 class="card-title">Brigadeiro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Cocada.JPG" class="card-img-top" alt="Cocada">
+                            <div class="card-body">
+                                <h5 class="card-title">Cocada</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Curau.jpg" class="card-img-top" alt="Curau">
+                            <div class="card-body">
+                                <h5 class="card-title">Curau</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Pacoca.jpg" class="card-img-top" alt="Paçoca">
+                            <div class="card-body">
+                                <h5 class="card-title">Paçoca</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Quindim.jpg" class="card-img-top" alt="Quindim">
+                            <div class="card-body">
+                                <h5 class="card-title">Quindim</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Rabanada.jpg" class="card-img-top" alt="Rabanada">
+                            <div class="card-body">
+                                <h5 class="card-title">Rabanada</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Sonho.jpg" class="card-img-top" alt="Sonho">
+                            <div class="card-body">
+                                <h5 class="card-title">Sonho</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Gelatina.jpg" class="card-img-top" alt="Gelatina">
+                            <div class="card-body">
+                                <h5 class="card-title">Gelatina</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="Images/Doces/Banoffee.jpg" class="card-img-top" alt="Banoffee">
+                            <div class="card-body">
+                                <h5 class="card-title">Banoffee</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Ver Receita</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="bg-light text-center text-lg-start">
+        <hr>
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Cozinha</h5>
+                    <p>
+                        Cozinhar é como tecer um delicado manto de aromas, cores, sabores, texturas. Um manto divino que
+                        se deitará sobre o paladar de alguém sempre especial.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Tecnologia</h5>
+                    <p>
+                        A primeira regra de qualquer tecnologia utilizada nos negócios é que a automação aplicada a uma
+                        operação eficiente aumentará a eficiência. A segunda é que a automação aplicada a uma operação
+                        ineficiente aumentará a ineficiência.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright: Karoline e Pedro</div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
